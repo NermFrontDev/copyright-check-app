@@ -152,3 +152,20 @@ input:focus-visible {
   padding: 5px;
   max-width: 140px;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+    background: -webkit-linear-gradient(#ffff, #2A0EB3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .input-search {
+    width: 350px;
+  }
+
+  .btn-search {
+    padding: 14px 135px;
+  }
+}
